@@ -1,0 +1,11 @@
+{
+  "name": "location-tracker-api-engine",
+  "version": "1.0.0",
+  "description": "API dependencies for Vercel functions",
+  "main": "index.js",
+  "author": "Tejas-Turbo",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
