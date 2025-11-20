@@ -7,7 +7,7 @@ export default function handler(req) {
     JSON.stringify({
       supabaseUrl: process.env.SUPABASE_URL,
       supabaseAnonKey: process.env.SUPABASE_ANON_KEY,
-      googleClientId: process.env.GOOGLE_CLIENT_ID, // <-- YEH LINE ADD KAREIN
+      googleClientId: process.env.GOOGLE_CLIENT_ID,
     }),
     {
       status: 200,
